@@ -34,21 +34,7 @@ export default function Facilities() {
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between items-start gap-6 mb-14" data-animate>
           <div>
-            <p
-              className="font-inter text-[11px] font-black tracking-[0.22em] uppercase mb-4"
-              style={{ color: 'rgba(0,0,0,0.5)' }}
-            >
-              EXPLORE THE CAMPUS
-            </p>
-            <h2 className="font-display font-bold" style={{ fontSize: 'clamp(32px,4vw,52px)', color: '#111827', lineHeight: 1.1 }}>
-              World-Class<br />
-              <em
-                className="not-italic font-display italic"
-                style={{ color: '#6d28d9' }}
-              >
-                Campus Facilities
-              </em>
-            </h2>
+            <h2 className="section-title">World-Class Campus Facilities</h2>
           </div>
           <p className="text-sm leading-relaxed max-w-md" style={{ color: 'rgba(0,0,0,0.65)' }}>
             Every corner of Trident Academy is designed to inspire — from cutting-edge laboratories to serene reading halls and vibrant open-air quadrangles.

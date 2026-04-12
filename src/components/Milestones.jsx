@@ -25,21 +25,7 @@ export default function Milestones() {
       <div className="max-w-[1280px] mx-auto px-6">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-6 mb-14" data-animate>
           <div>
-            <p
-              className="font-inter text-[11px] font-black tracking-[0.22em] uppercase mb-4"
-              style={{ color: '#2C3A8C' }}
-            >
-              MARK YOUR CALENDAR
-            </p>
-            <h2 className="font-display font-bold" style={{ fontSize: 'clamp(32px,4vw,52px)', color: '#3E3A36', lineHeight: 1.1 }}>
-              Upcoming<br />
-              <em
-                className="not-italic"
-                style={{ color: '#E56D24' }}
-              >
-                Milestones
-              </em>
-            </h2>
+            <h2 className="section-title">Upcoming Milestones</h2>
           </div>
           <p className="text-sm leading-relaxed max-w-sm" style={{ color: 'rgba(62,58,54,0.65)' }}>
             Key moments that define the Trident experience — from innovation summits to cultural celebrations and alumni reunions. Don't miss a beat.

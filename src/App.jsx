@@ -8,7 +8,6 @@ import Research from './components/Research'
 import Events from './components/Events'
 import Innovation from './components/Innovation'
 import Facilities from './components/Facilities'
-import Voices from './components/Voices'
 import Milestones from './components/Milestones'
 import Footer from './components/Footer'
 
@@ -45,8 +44,6 @@ export default function App() {
         <hr className="gradient-divider" />
 
         <Facilities />
-
-        <Voices />
 
         <Milestones />
       </main>

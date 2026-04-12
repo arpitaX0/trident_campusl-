@@ -38,9 +38,8 @@ export default function Events() {
   return (
     <section ref={sectionRef} className="py-[100px]" style={{ background: '#EFE7DF' }} id="events">
       <div className="max-w-[1280px] mx-auto px-6">
-        <div className="flex items-center gap-4 mb-14" data-animate>
-          <div className="w-10 h-px" style={{ background: '#2C3A8C' }}></div>
-          <h2 className="font-display text-4xl font-bold" style={{ color: '#3E3A36' }}>Legacy Events</h2>
+        <div className="mb-14" data-animate>
+          <h2 className="section-title">Legacy Events</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

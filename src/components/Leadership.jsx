@@ -24,13 +24,9 @@ export default function Leadership() {
   return (
     <section ref={sectionRef} className="py-[100px]" style={{ background: '#EFE7DF' }} id="governance">
       <div className="max-w-[1280px] mx-auto px-6">
-        <div className="flex flex-col items-center mb-14" data-animate>
-          <div className="flex items-center justify-center gap-4 mb-4">
-            <div className="w-10 h-px" style={{ background: '#2C3A8C' }}></div>
-            <h2 className="font-display text-4xl font-bold text-center" style={{ color: '#3E3A36' }}>Student Leadership &amp; Governance</h2>
-            <div className="w-10 h-px" style={{ background: '#2C3A8C' }}></div>
-          </div>
-          <p className="text-center" style={{ color: 'rgba(62,58,54,0.6)' }}>
+        <div className="flex flex-col items-center mb-14 text-center" data-animate>
+          <h2 className="section-title">Student Leadership & Governance</h2>
+          <p className="text-lg" style={{ color: 'rgba(62,58,54,0.6)' }}>
             Empowering student voices through democratic representation.
           </p>
         </div>

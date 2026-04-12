@@ -26,13 +26,12 @@ export default function Sports() {
   return (
     <section ref={sectionRef} className="py-[100px]" style={{ background: '#EFE7DF' }} id="sports">
       <div className="max-w-[1280px] mx-auto px-6">
-        <div className="flex items-center justify-center gap-4 mb-4" data-animate>
-          <div className="w-10 h-px" style={{ background: '#2C3A8C' }}></div>
-          <h2 className="font-display text-4xl font-bold text-center" style={{ color: '#3E3A36' }}>Pulse &amp; Play</h2>
+        <div className="flex flex-col items-center mb-14 text-center" data-animate>
+          <h2 className="section-title">Pulse & Play</h2>
+          <p className="text-lg" style={{ color: 'rgba(62,58,54,0.6)' }}>
+            World-class athletic infrastructure designed to foster sportsmanship and physical excellence.
+          </p>
         </div>
-        <p className="text-center mb-14" style={{ color: 'rgba(62,58,54,0.6)' }} data-animate>
-          World-class athletic infrastructure designed to foster sportsmanship and physical excellence.
-        </p>
 
         {/* Infinite Ticker — reference style: image card with icon+label below */}
         <div className="overflow-hidden" data-animate>

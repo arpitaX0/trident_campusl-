@@ -25,11 +25,8 @@ export default function Research() {
       <div className="max-w-[1280px] mx-auto px-6">
         <div className="flex justify-between items-end mb-16" data-animate>
           <div>
-            <div className="flex items-center gap-4 mb-3">
-              <div className="w-10 h-px" style={{ background: '#2C3A8C' }}></div>
-              <h2 className="font-display text-4xl font-bold" style={{ color: '#3E3A36' }}>Research &amp; Innovation Spotlight</h2>
-            </div>
-            <p style={{ color: 'rgba(62,58,54,0.6)' }}>Driving technological advancement through dedicated research and academic excellence.</p>
+            <h2 className="section-title">Research & Innovation Spotlight</h2>
+            <p className="text-lg" style={{ color: 'rgba(62,58,54,0.6)' }}>Driving technological advancement through dedicated research and academic excellence.</p>
           </div>
           <a
             href="#"

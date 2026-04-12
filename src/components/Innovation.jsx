@@ -33,20 +33,7 @@ export default function Innovation() {
             >
               CUTTING-EDGE INFRASTRUCTURE
             </p>
-            <h2 className="font-display font-bold" style={{ fontSize: 'clamp(32px,4vw,52px)', color: 'white', lineHeight: 1.1 }}>
-              Innovation &amp;<br />
-              <em
-                className="not-italic"
-                style={{
-                  background: 'linear-gradient(135deg, #6b4dff, #E56D24)',
-                  WebkitBackgroundClip: 'text',
-                  backgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
-                }}
-              >
-                Incubation Labs
-              </em>
-            </h2>
+            <h2 className="section-title-light">Innovation & Incubation Labs</h2>
           </div>
           <p className="text-sm leading-relaxed max-w-sm" style={{ color: 'rgba(255,255,255,0.5)' }}>
             State-of-the-art facilities bridging the gap between academic learning and industry demands — where ideas become reality.
