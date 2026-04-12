@@ -29,15 +29,14 @@ export default function Header() {
     iconCloseRef.current.style.display = isOpen ? '' : 'none'
   }
 
-  const navLinks = ['About', 'Admissions', 'Academics', 'Research']
-  const navLinksWithHash = [
-    { label: 'Campus Life', href: '#vibe' },
-    { label: 'Activities', href: '#activities' },
-    { label: 'Contact Us', href: '#' },
-  ]
   const allLinks = [
-    ...navLinks.map(l => ({ label: l, href: '#' })),
-    ...navLinksWithHash,
+    { label: 'About', href: 'https://about-tat.tekkzy.com/' },
+    { label: 'Admissions', href: 'https://admissions-tat.tekkzy.com/' },
+    { label: 'Academics', href: 'https://academics-tat.tekkzy.com/' },
+    { label: 'Research', href: 'https://research-tat.tekkzy.com/' },
+    { label: 'Campus Life', href: 'https://campuslife-tat.tekkzy.com/' },
+    { label: 'Activities', href: 'https://activities-tat.tekkzy.com' },
+    { label: 'Contact Us', href: 'https://contactus-tat.tekkzy.com' },
   ]
 
   return (
@@ -102,7 +101,7 @@ export default function Header() {
           {/* CTA */}
           <div className="hidden lg:block flex-shrink-0">
             <a
-              href="/apply"
+              href="https://apply-now.tekkzy.com"
               className="font-inter text-xs font-black tracking-[0.12em] uppercase text-white bg-brand-red px-7 py-3 rounded no-underline whitespace-nowrap transition-all hover:-translate-y-0.5"
               style={{ boxShadow: '0 4px 14px rgba(230,57,70,0.35)' }}
             >
@@ -158,12 +157,12 @@ export default function Header() {
               style={{ transform: 'translateY(32px) scale(0.95)', opacity: 0, transition: 'transform 0.5s ease 0.4s, opacity 0.5s ease 0.4s' }}
             >
               <a
-                href="/apply"
+                href="https://apply-now.tekkzy.com"
                 className="block text-center font-inter text-[13px] font-black tracking-[0.18em] uppercase text-white bg-brand-red py-4 px-6 rounded-xl no-underline hover:bg-red-700 transition-colors"
                 style={{ boxShadow: '0 10px 30px -10px rgba(230,57,70,0.5)' }}
                 onClick={() => toggleMenu(false)}
               >
-                Start Application
+                Apply Now
               </a>
             </div>
           </div>
