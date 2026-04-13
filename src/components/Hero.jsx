@@ -51,17 +51,6 @@ export default function Hero() {
       <div className="w-full max-w-[1280px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         {/* Left Content */}
         <div data-animate>
-          {/* Badge */}
-          <div
-            className="inline-block px-5 py-2 rounded-full text-[11px] font-bold tracking-[0.18em] uppercase mb-8"
-            style={{
-              background: 'rgba(44,58,140,0.07)',
-              color: '#2C3A8C',
-              border: '1px solid rgba(44,58,140,0.15)',
-            }}
-          >
-            TRIDENT ACADEMY OF TECHNOLOGY
-          </div>
 
           {/* Headline — "Passion" blue, "Creativity" orange, matching reference */}
           <h1
