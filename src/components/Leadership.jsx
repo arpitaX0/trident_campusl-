@@ -2,28 +2,28 @@ import { useEffect, useRef } from 'react'
 
 const leaders = [
   {
-    img: 'https://raw.githubusercontent.com/shubhranshux/trident/main/temp-app/src/assets/discover_graduation.jpg',
+    img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800&h=1000',
     role: 'CHAIRMAN',
     name: 'Dr. Chandan Kumar Das',
     subtitle: 'Sports Committee',
     delay: 100,
   },
   {
-    img: 'https://raw.githubusercontent.com/shubhranshux/trident/main/temp-app/src/assets/news_campus_life.jpg',
+    img: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800&h=1000',
     role: 'FACULTY GUIDE',
     name: 'Dr. Mili Panigrahi',
     subtitle: 'Music Club (ETC)',
     delay: 200,
   },
   {
-    img: 'https://raw.githubusercontent.com/shubhranshux/trident/main/temp-app/src/assets/news_seminar.jpg',
+    img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=800&h=1000',
     role: 'FACULTY GUIDE',
     name: 'Mr. Manoj Kumar Rath',
     subtitle: 'Communication Club',
     delay: 300,
   },
   {
-    img: 'https://raw.githubusercontent.com/shubhranshux/trident/main/temp-app/src/assets/cta_research_scholars.jpg',
+    img: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=800&h=1000',
     role: 'SPORTS OFFICER',
     name: 'Mr. Pratap Kumar Rath',
     subtitle: 'Sports & Games Committee',
@@ -48,17 +48,20 @@ export default function Leadership() {
   return (
     <section ref={sectionRef} className="py-[100px]" style={{ background: '#F5EEEC' }} id="leadership">
       <div className="max-w-[1280px] mx-auto px-6">
-        <div className="text-center mb-16" data-animate>
-          <p
-            className="font-inter text-[11px] font-black tracking-[0.22em] uppercase mb-3"
-            style={{ color: '#E56D24' }}
-          >
-            FACULTY & GUIDANCE
-          </p>
-          <h2 className="section-title">Club Mentors & Leaders</h2>
-          <p className="text-lg mx-auto" style={{ color: 'rgba(62,58,54,0.6)', maxWidth: 560 }}>
-            Each club is guided by a Professor and a faculty coordinator, ensuring students receive expert mentorship and direction.
-          </p>
+        {/* Header */}
+        <div className="flex justify-between items-end mb-16" data-animate>
+          <div>
+            <p
+              className="font-inter text-[11px] font-black tracking-[0.22em] uppercase mb-3"
+              style={{ color: '#E56D24' }}
+            >
+              FACULTY & GUIDANCE
+            </p>
+            <h2 className="section-title">Club Mentors & Leaders</h2>
+            <p className="text-lg" style={{ color: 'rgba(62,58,54,0.6)', maxWidth: 560 }}>
+              Each club is guided by a Professor and a faculty coordinator, ensuring students receive expert mentorship and direction.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
